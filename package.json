@@ -1,0 +1,19 @@
+{
+  "name": "north-india-tourism-app",
+  "version": "1.0.0",
+  "description": "Tour and Tourism App for North India with SOS features",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3001",
+    "both": "concurrently \"npm run dev\" \"npm start\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-beta.3",
+    "twilio": "^4.19.0",
+    "dotenv": "^16.3.1",
+    "concurrently": "^8.2.2"
+  }
+}

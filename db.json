@@ -1,0 +1,73 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Taj Mahal",
+      "location": "Agra, Uttar Pradesh",
+      "description": "A symbol of love, built by Mughal Emperor Shah Jahan.",
+      "image": "https://example.com/taj.jpg",
+      "lat": 27.1751,
+      "lng": 78.0421
+    },
+    {
+      "id": 2,
+      "name": "Golden Temple",
+      "location": "Amritsar, Punjab",
+      "description": "The holiest Sikh shrine.",
+      "image": "https://example.com/golden.jpg",
+      "lat": 31.6200,
+      "lng": 74.8765
+    },
+    {
+      "id": 3,
+      "name": "Himalayas",
+      "location": "Uttarakhand",
+      "description": "Majestic mountain range for trekking and adventure.",
+      "image": "https://example.com/himalayas.jpg",
+      "lat": 30.0869,
+      "lng": 79.5600
+    },
+    {
+      "id": 4,
+      "name": "Red Fort",
+      "location": "Delhi",
+      "description": "Historic Mughal fort in the heart of Delhi.",
+      "image": "https://example.com/redfort.jpg",
+      "lat": 28.6562,
+      "lng": 77.2410
+    },
+    {
+      "id": 5,
+      "name": "Jaipur City Palace",
+      "location": "Jaipur, Rajasthan",
+      "description": "Royal palace showcasing Rajasthani architecture.",
+      "image": "https://example.com/jaipur.jpg",
+      "lat": 26.9124,
+      "lng": 75.7873
+    }
+  ],
+  "sos": [
+    {
+      "id": 1,
+      "name": "Police",
+      "number": "100"
+    },
+    {
+      "id": 2,
+      "name": "Ambulance",
+      "number": "108"
+    },
+    {
+      "id": 3,
+      "name": "Fire Brigade",
+      "number": "101"
+    },
+    {
+      "id": 4,
+      "name": "Tourist Safety",
+      "number": "1363"
+    }
+  ],
+  "users": [],
+  "tours": []
+}

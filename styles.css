@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #004085;
+}
+
+main {
+    padding: 1rem;
+}
+
+.place, .sos-item, .tour-item {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sos-item button {
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sos-item button:hover {
+    background-color: #c82333;
+}
+
+#register-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#otp-section input {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#places-checkboxes label {
+    display: block;
+    margin: 5px 0;
+}
+
+#map {
+    width: 100%;
+}

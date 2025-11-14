@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North India Tourism App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="your-google-client-id-placeholder">
+</head>
+<body>
+    <header>
+        <h1>North India Tourism</h1>
+        <nav>
+            <button id="login-btn">Login</button>
+            <button id="places-btn">Places</button>
+            <button id="tours-btn">Tours</button>
+            <button id="maps-btn">Maps</button>
+            <button id="sos-btn">SOS</button>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="login-section">
+            <h2>Login/Register</h2>
+            <div id="google-signin"></div>
+            <form id="register-form">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="tel" id="phone" placeholder="Phone" required>
+                <button type="submit">Register</button>
+            </form>
+            <div id="otp-section" style="display:none;">
+                <input type="text" id="otp" placeholder="Enter OTP" required>
+                <button id="verify-otp">Verify OTP</button>
+            </div>
+        </section>
+        <section id="places-section" style="display:none;">
+            <h2>Popular Places</h2>
+            <div id="places-list"></div>
+        </section>
+        <section id="tours-section" style="display:none;">
+            <h2>My Tours</h2>
+            <div id="tours-list"></div>
+            <button id="create-tour">Create Tour</button>
+            <div id="tour-planner" style="display:none;">
+                <h3>Select Places</h3>
+                <div id="places-checkboxes"></div>
+                <button id="save-tour">Save Tour</button>
+            </div>
+        </section>
+        <section id="maps-section" style="display:none;">
+            <h2>Live Map</h2>
+            <div id="map" style="height:400px;"></div>
+        </section>
+        <section id="sos-section" style="display:none;">
+            <h2>Emergency SOS</h2>
+            <div id="sos-list"></div>
+        </section>
+    </main>
+    <script src="https://maps.googleapis.com/maps/api/js?key=your-google-maps-api-key-placeholder"></script>
+    <script src="app.js"></script>
+</body>
+</html>
